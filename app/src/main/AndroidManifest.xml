@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="innocat.amasing" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".Launch" android:theme="@style/AppTheme.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Categores" android:parentActivityName=".Home"  >
+        </activity>
+        <activity android:name=".Home" android:theme="@style/AppTheme.Fullscreen">
+        </activity>
+        <activity android:name=".ProductList" android:parentActivityName=".Categores" >
+        </activity>
+        <activity android:name=".ProductDetails" android:parentActivityName=".ProductList" >
+        </activity>
+        <activity android:name=".Cart"  android:label="Cart" android:parentActivityName=".Categores" >
+        </activity>
+        <activity android:name=".Payments" android:label="Payments" >
+        </activity>
+    </application>
+
+</manifest>

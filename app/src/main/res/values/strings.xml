@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Amasing</string>
+
+    <string name="text_home">Home</string>
+    <string name="text_profile">Profile</string>
+    <string name="text_settings">Settings</string>
+
+    <string name="home">the most fullfilling shopping Experince</string>
+    <string name="terms">Terms And Conditions</string>
+    <string name="face">&#xf082; Connect With Facebook</string>
+    <string name="sign">Sign Up</string>
+    <string name="login">login</string>
+    <string name="search_hint"> &#xf002;  I`am Looking For..</string>
+    <string name="carts">ADD TO CART</string>
+    <string name="buyn">BUY NOW</string>
+    <string name="freet">Free Transport For those in Town</string>
+    <string name="norate">*****</string>
+    <string name="sss">MAKE PAYMENT</string>
+    <string name="confirm">Confirm Order</string>
+
+</resources>

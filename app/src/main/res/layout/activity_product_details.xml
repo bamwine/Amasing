@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:gravity="center"
+        android:id="@+id/scrollView"
+       >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:src="@drawable/p2"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="TV STAND "
+                android:id="@+id/title"
+                android:capitalize="sentences"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                style="@style/marg"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="black and brown"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                style="@style/marg"
+                android:id="@+id/type" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="sentences"
+                android:textStyle="bold"
+                android:text="1,000,000"
+                android:textColor="#0000ff"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                style="@style/marg"
+                android:id="@+id/money" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/norate"
+                style="@style/marg"
+                android:id="@+id/rate" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/freet"
+                style="@style/marg"
+                android:textSize="@dimen/songs_count"
+                android:id="@+id/textView10" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="@color/colorAccent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/addcat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="@string/carts" />
+
+
+        <TextView
+            android:id="@+id/addbuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:text="@string/buyn" />
+    </LinearLayout>
+</FrameLayout>

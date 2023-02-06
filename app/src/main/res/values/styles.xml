@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+
+</style>
+
+
+    <style name="AppTheme.Fullscreen">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+
+    <style name="CustomtextviewStyle">
+        <item name="android:capitalize">sentences</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:shadowDx">1.2</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin" >3dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding" >12sp</item>
+    </style>
+
+
+    <style name="customStyle">
+    <item name="android:capitalize">characters</item>
+    <item name="android:typeface">serif</item>
+    <item name="android:shadowDx">1.2</item>
+    <item name="android:shadowDy">1.2</item>
+    <item name="android:shadowRadius">2</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_margin" >3dp</item>
+    <item name="android:textSize">20sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:padding" >10sp</item>
+    <item name="android:background" >@drawable/white_boader</item>
+</style>
+
+
+    <style name="customStyle1">
+        <item name="android:capitalize">characters</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:shadowDx">1.2</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin" >3dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding" >10sp</item>
+
+    </style>
+
+
+    <style name="ImageTitle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">#99000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+
+    <style name="marg">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:paddingLeft">@dimen/album_title_padding</item>
+
+    </style>
+
+
+</resources>

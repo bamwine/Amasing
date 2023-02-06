@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp"
+    android:fitsSystemWindows="true"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Cart Has:\t\t 20\t\t items"
+            android:id="@+id/textView6"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textSize="20dp"
+            android:padding="2dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Amount Payable: \t 30000 Shs"
+            android:id="@+id/textView8"
+            android:typeface="monospace"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="2dp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/linearLayout2" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:textSize="30dp"
+            android:text="@string/sss"
+            android:id="@+id/makepay"
+            android:layout_gravity="bottom"
+            android:textAlignment="center"
+            android:background="@color/colorAccent"
+            android:typeface="serif"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>
